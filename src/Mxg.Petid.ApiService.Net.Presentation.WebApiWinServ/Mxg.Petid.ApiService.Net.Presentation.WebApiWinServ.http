@@ -1,0 +1,6 @@
+@Mxg.Petid.ApiService.Net.Presentation.WebApiWinServ_HostAddress = http://localhost:5243
+
+GET {{Mxg.Petid.ApiService.Net.Presentation.WebApiWinServ_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

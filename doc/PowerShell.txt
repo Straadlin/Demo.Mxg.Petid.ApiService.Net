@@ -1,0 +1,12 @@
+Service information
+	Name: Mxg.Petid.ApiService
+	Path to install: C:\Services\MxgPetidApiService
+
+
+Commands to install a Windows Service in Windows 11
+
+	To install a windows service:
+		New-Service -Name "Mxg.Petid.ApiService" -BinaryPathName "C:\Services\MxgPetidApiService\Mxg.Petid.ApiService.Net.Presentation.WebApiWinServ.exe" -DisplayName "Mxg Petid ApiService" -Description "This service provides REST commmunication services for Petid project." -StartupType Automatic
+	
+	Optional: To uninstall a windows service:
+		sc.exe delete "Mxg.Petid.ApiService"
